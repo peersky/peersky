@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @peersky
-- 👀 I’m interested in Audio, Visuals, DSP, Math, Geometry, UX, UI, AI, Mesh networking, FPGAs, Web Assy. 
-- 🌱 I’m currently learning how to apply ML in practice, UX and Web, Web assy basics. 
-- 💞️ I’m looking to collaborate on ground breaking projects in fields of Mesh netwroking, AI and building green cities of future. 
+- 👋 Hi, I’m @peersky, MSc. Engineer and Developer. 
+- 👀 I’m interested in AI/DS, DSP, Beatufiul UI's, Web3, Crypto, IoT and Mesh networks.
+- 🌱 I’m currently learning vector math program in Solidity
+- 💞️ I’m looking to collaborate on funky AV projects or serious academic stuff. 
 - 📫 How to reach me: https://www.linkedin.com/in/peersky/ or in Slack Bugout-dev public channel: https://bugout-dev.slack.com/join/shared_invite/zt-fhepyt87-5XcJLy0iu702SO_hMFKNhQ#/shared-invite/email
 
 <!---
