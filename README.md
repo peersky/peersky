@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @peersky, MSc. Engineer and Developer. 
-- 👀 I’m interested in AI/DS, DSP, Beatufiul UI's, Web3, Crypto, IoT and Mesh networks.
+- 👀 I’m interested in AI/DS, DSP, Beatufiul UI's, Web3, DeFi, IoT and Mesh networks.
 - 📫 How to reach me: https://www.linkedin.com/in/peersky/ or in Slack Bugout-dev public channel: https://bugout-dev.slack.com/join/shared_invite/zt-fhepyt87-5XcJLy0iu702SO_hMFKNhQ#/shared-invite/email
 
 <!---
