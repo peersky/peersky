@@ -4,7 +4,6 @@ import {
   Text,
   Link,
   VStack,
-  useColorModeValue,
   Flex,
   Center,
   Badge,
@@ -17,8 +16,6 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 const LandingPage = () => {
   const bg = '#1233fa';
   const bgbg = 'gray.800';
-
-  // const [isLargerThan1440] = useMediaQuery('(min-width: 1440px)');
 
   console.log('bg', bg);
   return (
@@ -33,9 +30,6 @@ const LandingPage = () => {
       bgColor={bgbg}
       minW="360px"
     >
-      {/* <Flex w="100%" h="22px" placeContent="flex-end">
-        <ColorModeSwitcher justifySelf="flex-end" />
-      </Flex> */}
       <Center>
         <VStack
           spacing={8}
