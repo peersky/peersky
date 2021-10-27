@@ -398,12 +398,6 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 {`Email -----------> `}t [at] peersky [dot] xyz
-                <Link display="block" href="https://github.com/peersky">
-                  Github <ExternalLinkIcon mx="2px" />
-                </Link>
-                <Link display="block" href="https://linkedin.com/in/peersky">
-                  Linkedin <ExternalLinkIcon mx="2px" />
-                </Link>
                 <Image
                   color="teal"
                   filter={'alpha(opacity=50)'}
