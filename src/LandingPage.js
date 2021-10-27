@@ -11,6 +11,7 @@ import {
   chakra,
   UnorderedList,
   ListItem,
+  Image,
 } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 const LandingPage = () => {
@@ -403,6 +404,19 @@ const LandingPage = () => {
                 <Link display="block" href="https://linkedin.com/in/peersky">
                   Linkedin <ExternalLinkIcon mx="2px" />
                 </Link>
+                <Image
+                  color="teal"
+                  filter={'alpha(opacity=50)'}
+                  src={process.env.PUBLIC_URL + '/vcard-transparent.png'}
+                ></Image>
+                <Center>
+                  <Link
+                    fontSize="12px"
+                    href="https://qrcard.mindthealgorithm.com"
+                  >
+                    QR vcard generated with qrcard <ExternalLinkIcon mx="2px" />
+                  </Link>
+                </Center>
               </chakra.span>
             </VStack>
           </VStack>
