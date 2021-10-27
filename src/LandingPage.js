@@ -88,12 +88,12 @@ const LandingPage = () => {
                   Earth.{' '}
                 </Text>{' '}
                 <Text pt={1}>
-                  We are One with Universe and troguh our natural curiosity and
+                  We are One with Universe and trough our natural curiosity and
                   play we are slowly learning this fact, as any other living
                   creature does.
                 </Text>{' '}
                 <Text pt={4}>
-                  I love brain breeze, cup of tea, midfullness and meeting new
+                  I love brain breeze, cup of tea, mindfulness and meeting new
                   exciting people. So, please, - get in touch!
                 </Text>{' '}
               </chakra.span>
@@ -146,7 +146,7 @@ const LandingPage = () => {
                         </Link>{' '}
                         is an open source tool for analyzing and performing
                         actions based on analytics at <b>Blockchain</b>. Working
-                        on Web3 technologies is crutial as I believe this
+                        on Web3 technologies is crucial as I believe this
                         together with Quantum technology - is the future.
                       </Text>
                     </chakra.span>
@@ -186,12 +186,12 @@ const LandingPage = () => {
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        Particular mention is worth{' '}
+                        Its worth to particularly mention{' '}
                         <Link href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/">
                           Zen Delay <ExternalLinkIcon mx="2px" />
                         </Link>
                         , since this is a device which I designed almost
-                        completley on my own - from hardware, schematics, down
+                        completely on my own - from hardware, schematics, down
                         to writing C code. This work is devoted to my love and
                         passion about music, and audio processing
                       </Text>
@@ -255,15 +255,16 @@ const LandingPage = () => {
                       <Text pt={1}>
                         That was great place, by many means best I've worked so
                         far. I was working on top edge, state of art, you name
-                        it - technology of futre. 5G, IoT. Designing microwave
-                        filters, antennas, writing patent applications, doing
-                        proper {'R&D'} work with reporting directly to CTO
+                        it - technology of future. 5G, IoT. I was designing
+                        microwave filters, antennas, writing patent
+                        applications, doing proper {'R&D'} work with reporting
+                        directly to CTO
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <Text>
-                      I graduated Master Stuies in Riga Technical University
+                      I graduated Master Studies in Riga Technical University
                       with great joy. My favorite subject back then -
                       Electrodynamics, defined my thesis and first role.
                     </Text>
@@ -285,7 +286,7 @@ const LandingPage = () => {
                 <Text pt={4}>
                   All living creatures are programmed by their very being to
                   fight against entropy. Ants are digging in to earth to get air
-                  inside soild, and that effectivly reduces the process of
+                  inside soil, and that effectively reduces the process of
                   entry, which in geology appears as concentration of heavy
                   materials in earth center.
                 </Text>{' '}
@@ -304,7 +305,7 @@ const LandingPage = () => {
                 </Text>{' '}
                 <Text pt={4}>
                   We are in our way of understanding this scale. At the and
-                  there is only Dao. Dao is ethernal but it has no meaning. Only
+                  there is only Dao. Dao is eternal but it has no meaning. Only
                   when we fully understand Dao, we can reach our true
                   capabilities.
                 </Text>{' '}
@@ -315,7 +316,7 @@ const LandingPage = () => {
                       Endless openness - There should be no place for hiding
                       lies. It never helps. Lies only multiply itself as tumor
                       does. Financial systems, elections, Scientific researches
-                      - all must be fully transperant.
+                      - all must be fully transparent.
                     </Text>
                   </ListItem>
                   <ListItem pt={3}>
@@ -328,12 +329,12 @@ const LandingPage = () => {
                   <ListItem pt={3}>
                     <Text>
                       Redefining cities to stop pollution - Taking step back and
-                      reconsidering how we live is nesscacerry! Anthropologists
-                      know that every archelogical human settlement can be
+                      reconsidering how we live is necessary! Anthropologists
+                      know that every archeological human settlement can be
                       studies by garbage pile next to it.
                     </Text>
                     <Text pt={1}>
-                      Nowdays we already start polluting space around
+                      Now days we already start polluting space around
                       geostationary orbit without even realizing it. Redefining
                       our city and intercity communication is essential to
                       reduce waste, packaging and transportation expenses.
@@ -408,15 +409,6 @@ const LandingPage = () => {
         </VStack>
       </Center>
       <Text p={4}>&copy; Tim Pechersky 2021 </Text>
-
-      {/* <Image
-        zIndex={0}
-        src={process.env.PUBLIC_URL + '/dither-crop.png'}
-        position="absolute"
-        top={'16px'}
-        w={isLargerThan840 ? 'initial' : '320px'}
-        left={0}
-      /> */}
     </Flex>
   );
 };
