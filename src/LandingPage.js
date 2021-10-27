@@ -62,7 +62,7 @@ const LandingPage = () => {
           >
             <Text
               zIndex={100}
-              fontSize={['26px', '24px', '36px']}
+              fontSize={['18px', '24px', '36px']}
               color="gray.400"
             >
               Tim Pechersky
@@ -81,17 +81,34 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px">
                 <Text pt={1}>
-                  I believe everything is Dao, everyone has it's part in this
-                  world.
+                  The Earth and the Sky are eternal. The Earth and the Sky are
+                  eternal, because they exist not for themselves. That is the
+                  reason why they can be eternal.
                 </Text>
                 <Text pt={1}>
-                  We, Humans, are here for purpose - to take care about life on
-                  Earth.{' '}
+                  This is the reason why the Wise puts himself behiind others,
+                  thanks to that he becomes first. He neglects his own life,
+                  thereby his life gets spared.
                 </Text>{' '}
                 <Text pt={1}>
-                  We are One with Universe and trough our natural curiosity and
-                  play we are slowly learning this fact, as any other living
-                  creature does.
+                  Does this happen because he neglects his interests? It's
+                  opposite, he acts in his own interests!
+                </Text>{' '}
+                <Text pt={4}>
+                  My true believe is that we - humans, are here for a humble
+                  purpose of sustaining life on Earth. Our highest virtue is
+                  like water - it brings use to living creatures and does not
+                  fight them.
+                </Text>{' '}
+                <Text pt={4}>
+                  There is endless balanse in the universe. The middle - Dao and
+                  multi dimensional vector of Great Universe where biggest one
+                  known for us is Life and it's opposite - Entropy
+                </Text>{' '}
+                <Text pt={4}>
+                  Trough our natural curiosity and play we are opening inner and
+                  outer worlds by observing, exploring and moving in the endless
+                  dance of oure lifes
                 </Text>{' '}
                 <Text pt={4}>
                   I love brain breeze, cup of tea, mindfulness and meeting new
@@ -111,8 +128,8 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 <Text pt={1}>
-                  Exploring digital spaces of blockchain applications. Learning.
-                  Enjoying nature. Moving towards my play.
+                  Exploring digital streams of blockchain. Learning. Enjoying
+                  nature. Playing.
                 </Text>
               </chakra.span>
             </VStack>
@@ -145,37 +162,39 @@ const LandingPage = () => {
                           Moonstream
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        is an open source tool for analyzing and performing
-                        actions based on analytics at <b>Blockchain</b>. Working
-                        on Web3 technologies is crucial as I believe this
-                        together with Quantum technology - is the future.
+                        - an open source tool for analyzing and performing
+                        actions based on analytics at <b>Blockchain</b>. I
+                        believe this together with Quantum technology - is the
+                        future.
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I've started working with things I've always dreamed to
-                        - Open Source. Together with{' '}
+                        I've been working at open source projects together with{' '}
                         <Link href="https://www.linkedin.com/in/neeraj-kashyap-784035b8">
                           Neeraj Kashyap
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        and few other fellows we started working on web project{' '}
+                        and few other fellows we started
                         <Link href="https://bugout.dev">
                           Bugout - developer tools analytics
                           <ExternalLinkIcon mx="2px" />
-                        </Link>
+                        </Link>{' '}
+                        It's ment to let developers easily understand their user
+                        issues.
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        Since recently I got more excited by programming. My
-                        previous background was mostly Electronics/Radio
-                        engineering and I was very excited to jump in to
-                        software development as something yet unknown.
+                        I've been writing alot of code. Different code. Some of
+                        it works, some of it not. My initial background was
+                        mostly electronics, electrodynamics and signal
+                        processin. I was very excited to jump in to software
+                        development as something yet unknown.
                       </Text>
                       <Text pt={2}>
                         I started with simple web development, and then kept on
@@ -187,25 +206,25 @@ const LandingPage = () => {
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        Its worth to particularly mention{' '}
+                        One project to mention explicitly -
                         <Link href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/">
                           Zen Delay <ExternalLinkIcon mx="2px" />
                         </Link>
-                        , since this is a device which I designed almost
-                        completely on my own - from hardware, schematics, down
-                        to writing C code. This work is devoted to my love and
-                        passion about music, and audio processing
+                        , this is device engineering part of which almost
+                        completely done on my own - from hardware, schematics,
+                        down to writing C code. This work is devoted to my love
+                        and passion about music, and audio processing.
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I've been combining position of CEO with Head of R&D at{' '}
+                        I've been combining position of CEO with Head of{' '}
+                        {'R&D at '}
                         <Link href="https://teknologic.lv" whiteSpace="nowrap">
                           SIA Teknologic <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        for several years.
                       </Text>{' '}
                       <Text pt={2}>
                         This was great experience, we've build many devices for
@@ -228,6 +247,17 @@ const LandingPage = () => {
                           Leclanche
                           <ExternalLinkIcon mx="2px" />
                         </Link>
+                        <Text pt={2}>
+                          Company concept was to make a design studio in Latvia
+                          and provide ODM service. I was managing client
+                          relationships, managed fully company, projects,
+                          roadmaps and delivery. Outsourced people to get things
+                          done and of course had hands on myself.{' '}
+                        </Text>
+                        <Text pt={2}>
+                          Covid and chip shortages impacted down this
+                          enteprenurship strongly.
+                        </Text>
                       </Text>
                     </chakra.span>
                   </ListItem>
@@ -288,8 +318,9 @@ const LandingPage = () => {
                   All living creatures are programmed by their very being to
                   fight against entropy. Ants are digging in to earth to get air
                   inside soil, and that effectively reduces the process of
-                  entry, which in geology appears as concentration of heavy
-                  materials in earth center.
+                  entropy, which in geology appears as sequence of gravity force
+                  that concentrates over time heavy materials in center of the
+                  Planet.
                 </Text>{' '}
                 <Text pt={4}>
                   Trees are pulling carbon out from air and soil to structure it
@@ -305,10 +336,10 @@ const LandingPage = () => {
                   are also only ones who are able to stop one!
                 </Text>{' '}
                 <Text pt={4}>
-                  We are in our way of understanding this scale. At the and
+                  We are in our way of understanding this scale. At the end
                   there is only Dao. Dao is eternal but it has no meaning. Only
                   when we fully understand Dao, we can reach our true
-                  capabilities.
+                  capabilities and find balance with Entropy process.
                 </Text>{' '}
                 <Text pt={4}>To succeed we have to solve several issues:</Text>{' '}
                 <UnorderedList>
@@ -316,7 +347,7 @@ const LandingPage = () => {
                     <Text>
                       Endless openness - There should be no place for hiding
                       lies. It never helps. Lies only multiply itself as tumor
-                      does. Financial systems, elections, Scientific researches
+                      does. Financial systems, elections, scientific researches
                       - all must be fully transparent.
                     </Text>
                   </ListItem>
@@ -336,16 +367,18 @@ const LandingPage = () => {
                     </Text>
                     <Text pt={1}>
                       Now days we already start polluting space around
-                      geostationary orbit without even realizing it. Redefining
-                      our city and intercity communication is essential to
-                      reduce waste, packaging and transportation expenses.
+                      geostationary orbit. We should limit our technological
+                      society to new refined cities that are interconnected by
+                      closed loop transportation systems. Step out from these
+                      cities should be very sharp transaction from civilization
+                      down to lone of Mother nature.
                     </Text>
                   </ListItem>
                   <ListItem pt={3}>
                     <Text>
                       Resource based economy - we should reach toward counting
-                      our assets in resources Planet has, not rather resources
-                      we can afford to buy
+                      assets in resources Planet has, not resources we can
+                      afford to buy
                     </Text>
                   </ListItem>
                   <ListItem pt={3}>
@@ -356,14 +389,31 @@ const LandingPage = () => {
                   </ListItem>
                   <ListItem pt={3}>
                     <Text>
-                      Respect the nature - we should limit our technological
-                      society to new refined cities that are interconnected by
-                      closed loop transportation systems. Step out from these
-                      cities should be very sharp transaction from civilization
-                      down to lone of Mother nature
+                      Respect - every living creature is as much great and
+                      humble as we are. We might have highest intellect, but I
+                      am sure there are Wiser than we are on this Planet.
                     </Text>
                   </ListItem>
                 </UnorderedList>
+              </chakra.span>
+            </VStack>
+            <VStack spacing={6} w="100%">
+              <Badge
+                variant="solid"
+                colorScheme="purple"
+                fontSize="24px"
+                color="gray.400"
+                alignSelf="flex-start"
+              >
+                DAO
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="18px" w="100%">
+                <Text py={1}>
+                  Dao is endless. Dao that can be expressed in words - is not
+                  constant Dao. Name that can be named is not constant Name.
+                  Nameless is the beginning of Sky and Earth, one having name -
+                  mother of all creations
+                </Text>
               </chakra.span>
             </VStack>
             <VStack spacing={6} w="100%">
