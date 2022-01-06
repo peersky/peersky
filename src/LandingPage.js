@@ -74,36 +74,17 @@ const LandingPage = () => {
                 In t(r)o
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px">
-                <Text pt={1}>
-                  The Earth and the Sky are eternal. The Earth and the Sky are
-                  eternal, because they exist not for themselves. That is the
-                  reason why they can be eternal.
+                <Text pt={4}>
+                  Bold and curious. Kind and playful. Dreamer and doer.
                 </Text>
-                <Text pt={1}>
-                  This is the reason why the Wise puts himself behiind others,
-                  thanks to that he becomes first. He neglects his own life,
-                  thereby his life gets spared.
-                </Text>{' '}
-                <Text pt={1}>
-                  Does this happen because he neglects his interests? It's
-                  opposite, he acts in his own interests!
-                </Text>{' '}
                 <Text pt={4}>
-                  My true believe is that we - humans, are here for a humble
-                  purpose of sustaining life on Earth. Our highest virtue is
-                  like water - it brings use to living creatures and does not
-                  fight them.
-                </Text>{' '}
+                  Visionary for world of balance between science, sustainable
+                  technology, life, love and wilderness.
+                </Text>
                 <Text pt={4}>
-                  There is endless balanse in the universe. The middle - Dao and
-                  multi dimensional vector of Great Universe where biggest one
-                  known for us is Life and it's opposite - Entropy
-                </Text>{' '}
-                <Text pt={4}>
-                  Trough our natural curiosity and play we are opening inner and
-                  outer worlds by observing, exploring and moving in the endless
-                  dance of oure lifes
-                </Text>{' '}
+                  I believe life is a state, where each of us enters to live
+                  trough our specific, unique experience.
+                </Text>
                 <Text pt={4}>
                   I love brain breeze, cup of tea, mindfulness and meeting new
                   exciting people. So, please, - get in touch!
@@ -122,8 +103,8 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 <Text pt={1}>
-                  Exploring digital streams of blockchain. Learning. Enjoying
-                  nature. Playing.
+                  Becoming mature web3 expert. Enjoying nature of Canary
+                  islands. Finding myself in my own flow.
                 </Text>
               </chakra.span>
             </VStack>
@@ -139,105 +120,112 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px">
                 <Text pt={4}>
-                  I've started my creative path from zero. Back in 2008 I got
-                  money to buy my first soldering iron by writing course works
-                  for other students in University.
+                  Ive been always fascinated by science and technology,
+                  philosophy and adventures. Even though my childhood was not
+                  easy, I got trough with my natural curiosity and books I had
+                  around me at that time.
+                  {/* <br /> My first technical project was audio amplifier
+                  (exploded at my table back at 2008). In order to buy materials for it
+                  and soldering tools I had to spent christmas writing course works for
+                  other students. */}
                 </Text>
+
                 <Text pt={6}>
-                  Since then I've participated in many various projects of
-                  different industries and roles.
+                  Here are some things I've done in reverse chronological order:
                 </Text>
-                <Text pt={6}>Here is some in reverse chronological order:</Text>
                 <UnorderedList pl={2}>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        <Link href="www.moonstream.to">
+                        <Link href="www.moonstream.to" color="orange">
                           Moonstream
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        - an open source tool for analyzing and performing
-                        actions based on analytics at <b>Blockchain</b>. I
-                        believe this together with Quantum technology - is the
-                        future.
+                        - an open source blockchain developer tool for web3.
+                        Moonstream helps to understand how exactly people are
+                        using your smart contracts, and provides infrastructure
+                        around to ease deployment and control over web3
+                        applications
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I've been working at open source projects together with{' '}
-                        <Link href="https://www.linkedin.com/in/neeraj-kashyap-784035b8">
-                          Neeraj Kashyap
+                        <Link href="www.bugout.dev" color="orange">
+                          Bugout
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        and few other fellows we started
-                        <Link href="https://bugout.dev">
-                          Bugout - developer tools analytics
+                        - developer tools analytics. It's purpose is to let
+                        developers easily understand their user issues.
+                      </Text>
+                    </chakra.span>
+                  </ListItem>
+
+                  <ListItem pt={3}>
+                    <chakra.span>
+                      <Text>
+                        <Link
+                          href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/"
+                          color="orange"
+                        >
+                          Zen Delay
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        It's ment to let developers easily understand their user
-                        issues.
+                        - This work is devoted to my love and passion about
+                        music, and audio processing. <br />
+                        Firmware contains multiple interpolation effects, low
+                        latency real time data processing. Hardware consists of
+                        two printed boards: DSP board (Cortex M4, 256 MB SDRAM,
+                        HI-FI CoDecs). Analog board (Tube drive, analog VCF
+                        filters with resonance control). <br />
+                        In this project I've done almost all engineering work -
+                        schematic design, layout, board bring up, debug.
+                        Firmware (written in pure C) including peripheral
+                        drivers, DSP algorithms etc.
                       </Text>
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I've been writing alot of code. Different code. Some of
-                        it works, some of it not. My initial background was
-                        mostly electronics, electrodynamics and signal
-                        processin. I was very excited to jump in to software
-                        development as something yet unknown.
-                      </Text>
-                      <Text pt={2}>
-                        I started with simple web development, and then kept on
-                        with playing around with Machine Learning and Data
-                        Science projects
-                      </Text>
-                    </chakra.span>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <chakra.span>
-                      <Text>
-                        One project to mention explicitly -
-                        <Link href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/">
-                          Zen Delay <ExternalLinkIcon mx="2px" />
-                        </Link>
-                        , this is device engineering part of which almost
-                        completely done on my own - from hardware, schematics,
-                        down to writing C code. This work is devoted to my love
-                        and passion about music, and audio processing.
-                      </Text>
-                    </chakra.span>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <chakra.span>
-                      <Text>
-                        I've been combining position of CEO with Head of{' '}
-                        {'R&D at '}
-                        <Link href="https://teknologic.lv" whiteSpace="nowrap">
+                        <Link
+                          href="https://teknologic.lv"
+                          whiteSpace="nowrap"
+                          color="orange"
+                        >
                           SIA Teknologic <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
+                        - I've been combining position of CEO with Head of{' '}
+                        {'R&D'}
                       </Text>{' '}
                       <Text pt={2}>
-                        This was great experience, we've build many devices for
-                        companies such as{' '}
-                        <Link href="https://coastalamusements.com/">
+                        We've designed many decent devices as ODM for companies
+                        amongst which were:{` `}
+                        <Link
+                          href="https://coastalamusements.com/"
+                          color="teal"
+                          isExternal
+                        >
                           Coastal Amusements <ExternalLinkIcon mx="2px" />
-                        </Link>
-                        ,{' '}
-                        <Link href="https://ericasynths.lv/">
+                        </Link>{' '}
+                        <Link
+                          href="https://ericasynths.lv/"
+                          color="teal"
+                          isExternal
+                        >
                           Erica Synths
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        ,
-                        <Link href="https://barix.com/">
+                        <Link href="https://barix.com/" color="teal" isExternal>
                           Barix
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        ,
-                        <Link href="https://leclanche.com/">
+                        <Link
+                          href="https://leclanche.com/"
+                          color="teal"
+                          isExternal
+                        >
                           Leclanche
                           <ExternalLinkIcon mx="2px" />
                         </Link>
@@ -249,8 +237,10 @@ const LandingPage = () => {
                           done and of course had hands on myself.{' '}
                         </Text>
                         <Text pt={2}>
-                          Covid and chip shortages impacted down this
-                          enteprenurship strongly.
+                          It was quite busy position for me. and when covid and
+                          chip shortages impacted the industry I was happy to
+                          put in pause to reconsider the business consept, and
+                          went in to software development
                         </Text>
                       </Text>
                     </chakra.span>
@@ -258,13 +248,17 @@ const LandingPage = () => {
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I was Product Owner at{' '}
-                        <Link href="https://uavfactory.com" whiteSpace="nowrap">
+                        <Link
+                          href="https://uavfactory.com"
+                          whiteSpace="nowrap"
+                          color="orange"
+                          isExternal
+                        >
                           UAV Factory <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        where I brought to live their Tracking Antenna project,
+                        - Product Owner role where I restarted stale projects,
                         set up documentation, team spirit, as well as got some
-                        RF parts of their system operational
+                        hands in system parts which only I knew how to fix (RF)
                       </Text>
                     </chakra.span>
                   </ListItem>
@@ -272,31 +266,150 @@ const LandingPage = () => {
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
-                        I was doing Radio Frequency engineering at{' '}
-                        <Link href="https://saftehnika.com" whiteSpace="nowrap">
+                        <Link
+                          href="https://saftehnika.com"
+                          whiteSpace="nowrap"
+                          isExternal
+                          color="orange"
+                        >
                           SAF Tehnika <ExternalLinkIcon mx="2px" />
                         </Link>
+                        - RF engineer in {`R&D`} department.
                       </Text>{' '}
                       <Text pt={1}>
-                        That was great place, by many means best I've worked so
-                        far. I was working on top edge, state of art, you name
-                        it - technology of future. 5G, IoT. I was designing
-                        microwave filters, antennas, writing patent
-                        applications, doing proper {'R&D'} work with reporting
-                        directly to CTO
+                        I was working on state of art technologies. 5G, IoT. I
+                        was designing microwave filters, antennas, writing
+                        patent applications. Often I was directly reporting to
+                        CTO.
+                        <br />I learned much more than engineering or {`R&D`}{' '}
+                        here. Scaling manufacturing issues, organizing
+                        documentation and corporate culture. Importance of
+                        ISO9001. Working in large collective and organizing my
+                        own process within larger structure.
                       </Text>
                     </chakra.span>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      I graduated Master Studies in Riga Technical University
-                      with great joy. My favorite subject back then -
-                      Electrodynamics, defined my thesis and first role.
-                    </Text>
                   </ListItem>
                 </UnorderedList>
               </chakra.span>
             </VStack>
+            <VStack spacing={6}>
+              <Badge
+                variant="solid"
+                colorScheme="red"
+                color="gray.400"
+                fontSize="24px"
+                alignSelf="flex-start"
+              >
+                Education
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="18px">
+                <Text>
+                  MSc in Electronics engineering. Graduated in Riga Technical
+                  university in 2012. <br />
+                  Favorite subjects - Signal processing, Electrodynamics.
+                </Text>
+              </chakra.span>
+            </VStack>
+            <VStack spacing={6}>
+              <Badge
+                variant="solid"
+                colorScheme="red"
+                color="gray.400"
+                fontSize="24px"
+                alignSelf="flex-start"
+              >
+                Patents
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="16px">
+                <Link
+                  href="https://www.lrpv.gov.lv/sites/lrpv/files/media_file/201408201.pdf"
+                  // whiteSpace="nowrap"
+                  isExternal
+                  color="orange"
+                >
+                  ZEMAS STARPFREKVENCES SPEKTRA ANALIZATORS LV 14855 B · Issued
+                  Aug 20, 2014 <ExternalLinkIcon mx="2px" />
+                </Link>
+                <br />
+                <br />
+                <Link
+                  pt={2}
+                  href="https://www.lrpv.gov.lv/sites/lrpv/files/media_file/201405201.pdf"
+                  // whiteSpace="nowrap"
+                  isExternal
+                  color="orange"
+                >
+                  SPECTRUM ANALYZER OF ULTRA-LOW INTERMEDIATE FREQUENCY LV 14855
+                  A · Issued May 20, 2014
+                  <ExternalLinkIcon mx="2px" />
+                </Link>
+              </chakra.span>
+            </VStack>
+            <VStack spacing={6}>
+              <Badge
+                variant="solid"
+                colorScheme="red"
+                color="gray.400"
+                fontSize="24px"
+                alignSelf="flex-start"
+              >
+                Papers
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="16px">
+                <Link
+                  href="https://github.com/bugout-dev/moonstream/blob/main/datasets/nfts/papers/ethereum-nfts.pdf"
+                  // whiteSpace="nowrap"
+                  isExternal
+                  color="orange"
+                >
+                  An analysis of 7,020,950 NFT transactions on the Ethereum
+                  blockchain - October 22, 2021
+                  <ExternalLinkIcon mx="2px" />
+                </Link>
+              </chakra.span>
+            </VStack>
+
+            <VStack spacing={6} w="100%">
+              <Badge
+                variant="solid"
+                colorScheme="teal"
+                color="gray.400"
+                fontSize="24px"
+                alignSelf="flex-start"
+              >
+                During free time
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="16px" w="100%">
+                <Text pt={4}>
+                  For many years now I am practicing flow arts, such as poi,
+                  contact staff, levi stick, juggling. Such movement discipline
+                  connects my body and my mind in one.
+                </Text>{' '}
+                <Text pt={4}>
+                  Im passionate about music! I can play a little percussions,
+                  pentatonic flute, slowly approaching guitar.
+                </Text>{' '}
+                <Text pt={4}>
+                  Also find it very interesting to produce music in digital form
+                  via sound synthesis and sampling. I am traveling around with
+                  portable recorder which I use to sample unique sounds and use
+                  it for beat making.
+                </Text>{' '}
+                <Text pt={4}>
+                  I love nature and spending time in it. I've done hikes as long
+                  as 230 km and up to 65km in a day.
+                </Text>{' '}
+                <Text pt={4}>I love to play chess once in a while</Text>{' '}
+                <Text pt={4}>
+                  Yoga and meditation - it is a form of self exploration
+                </Text>{' '}
+                <Text pt={4}>
+                  In to water sports - surfing, recently completed PADI open
+                  water course
+                </Text>{' '}
+              </chakra.span>
+            </VStack>
+
             <VStack spacing={6}>
               <Badge
                 variant="solid"
@@ -309,105 +422,32 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px">
                 <Text pt={4}>
-                  All living creatures are programmed by their very being to
-                  fight against entropy. Ants are digging in to earth to get air
-                  inside soil, and that effectively reduces the process of
-                  entropy, which in geology appears as sequence of gravity force
-                  that concentrates over time heavy materials in center of the
-                  Planet.
+                  We, humans, are here for a humble purpose of sustaining life
+                  on Earth. Our highest virtue is to be like water - it brings
+                  use to living creatures and does not fight them.
                 </Text>{' '}
                 <Text pt={4}>
-                  Trees are pulling carbon out from air and soil to structure it
-                  against entropy
+                  To do so, we have to find our inner, social balance - which
+                  comes in form of conscious use of resource, decentralization,
+                  redefining our cities and social structure.
+                </Text>{' '}
+                <Text pt={4}>
+                  All living creatures are programmed by their very being to
+                  work against entropy. Ants are digging in to earth and hance
+                  let air inside soil, and that effectively reduces the process
+                  of entropy (which in geology can be observed as gravity force
+                  that pulls heavy materials to the center of the Planet over
+                  time).
+                </Text>{' '}
+                <Text pt={4}>
+                  Similar way trees are structuring carbon above the soil.
                 </Text>{' '}
                 <Text pt={4}>
                   In that manner humans mining and pumping oil from ground are
-                  serving same purpose.
+                  serving same purpose. Hence I see current ecological issues as
+                  temporary, human centric problems which, I'm certain - we can
+                  solve.
                 </Text>{' '}
-                <Text pt={4}>
-                  What makes a difference for us is our intellectual
-                  capabilities. We are able to cause ecological disaster, but we
-                  are also only ones who are able to stop one!
-                </Text>{' '}
-                <Text pt={4}>
-                  We are in our way of understanding this scale. At the end
-                  there is only Dao. Dao is eternal but it has no meaning. Only
-                  when we fully understand Dao, we can reach our true
-                  capabilities and find balance with Entropy process.
-                </Text>{' '}
-                <Text pt={4}>To succeed we have to solve several issues:</Text>{' '}
-                <UnorderedList>
-                  <ListItem pt={3}>
-                    <Text>
-                      Endless openness - There should be no place for hiding
-                      lies. It never helps. Lies only multiply itself as tumor
-                      does. Financial systems, elections, scientific researches
-                      - all must be fully transparent.
-                    </Text>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      Decentralization - there should be no one authority above
-                      rest. Stability should be common concern rather than
-                      concern of one. Only sharing responsibility we can grow.
-                    </Text>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      Redefining cities to stop pollution - Taking step back and
-                      reconsidering how we live is necessary! Anthropologists
-                      know that every archeological human settlement can be
-                      studies by garbage pile next to it.
-                    </Text>
-                    <Text pt={1}>
-                      Now days we already start polluting space around
-                      geostationary orbit. We should limit our technological
-                      society to new refined cities that are interconnected by
-                      closed loop transportation systems. Step out from these
-                      cities should be very sharp transaction from civilization
-                      down to lone of Mother nature.
-                    </Text>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      Resource based economy - we should reach toward counting
-                      assets in resources Planet has, not resources we can
-                      afford to buy
-                    </Text>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      Universal income - we should work not because we have to,
-                      rather we want to work because that is joy of our life
-                    </Text>
-                  </ListItem>
-                  <ListItem pt={3}>
-                    <Text>
-                      Respect - every living creature is as much great and
-                      humble as we are. We might have highest intellect, but I
-                      am sure there are Wiser than we are on this Planet.
-                    </Text>
-                  </ListItem>
-                </UnorderedList>
-              </chakra.span>
-            </VStack>
-            <VStack spacing={6} w="100%">
-              <Badge
-                variant="solid"
-                colorScheme="purple"
-                fontSize="24px"
-                color="gray.400"
-                alignSelf="flex-start"
-              >
-                DAO
-              </Badge>
-              <chakra.span textAlign="justify" fontSize="18px" w="100%">
-                <Text py={1}>
-                  Dao is endless. Dao that can be expressed in words - is not
-                  constant Dao. Name that can be named is not constant Name.
-                  Nameless is the beginning of Sky and Earth, one having name -
-                  mother of all creations
-                </Text>
               </chakra.span>
             </VStack>
             <VStack spacing={6} w="100%">
@@ -441,12 +481,19 @@ const LandingPage = () => {
                 Contact
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
-                {`Email -----------> `}t [at] peersky [dot] xyz
-                <Image
-                  color="teal"
-                  filter={'alpha(opacity=50)'}
-                  src={process.env.PUBLIC_URL + '/vcard-transparent.png'}
-                ></Image>
+                <Center pb={2}>
+                  {`Email -----------> `}t [at] peersky [dot] xyz
+                </Center>
+                <Center>
+                  <Image
+                    color="teal"
+                    bgColor={'gray.200'}
+                    borderRadius="md"
+                    filter={'alpha(opacity=50)'}
+                    src={process.env.PUBLIC_URL + '/vcard-transparent.png'}
+                    maxW={'420px'}
+                  ></Image>
+                </Center>
                 <Center>
                   <Link
                     fontSize="12px"
@@ -457,10 +504,43 @@ const LandingPage = () => {
                 </Center>
               </chakra.span>
             </VStack>
+            <VStack spacing={6} w="100%">
+              <Badge
+                variant="solid"
+                colorScheme="purple"
+                fontSize="24px"
+                color="gray.400"
+                alignSelf="flex-start"
+              >
+                DAO
+              </Badge>
+              <chakra.span textAlign="justify" fontSize="18px" w="100%">
+                <Text py={1}>
+                  Dao is endless. Dao that can be expressed in words - is not
+                  constant Dao. Name that can be named is not constant Name.
+                  Nameless is the beginning of Sky and Earth, one having name -
+                  mother of all creations
+                </Text>
+                <Text pt={1}>
+                  The Earth and the Sky are eternal. The Earth and the Sky are
+                  eternal, because they exist not for themselves. That is the
+                  reason why they can be eternal.
+                </Text>
+                <Text pt={1}>
+                  This is the reason why the Wise puts himself behind others,
+                  thanks to that he becomes first. He neglects his own life,
+                  thereby his life gets spared.
+                </Text>{' '}
+                <Text pt={1}>
+                  Does this happen because he neglects his interests? It's
+                  opposite, he acts in his own interests!
+                </Text>{' '}
+              </chakra.span>
+            </VStack>
           </VStack>
         </VStack>
       </Center>
-      <Text p={4}>&copy; Tim Pechersky 2021 </Text>
+      <Text p={4}>&copy; Tim Pechersky 2022 </Text>
     </Flex>
   );
 };
