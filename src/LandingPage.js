@@ -103,8 +103,8 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 <Text pt={1}>
-                  Becoming mature web3 expert. Enjoying nature of Canary
-                  islands. Finding myself in my own flow.
+                  Deep emersion in to building inner zen and dao when sitting
+                  and between laptop and mug of my cocoa.
                 </Text>
               </chakra.span>
             </VStack>
@@ -121,19 +121,14 @@ const LandingPage = () => {
               <chakra.span textAlign="justify" fontSize="18px">
                 <Text pt={4}>
                   Ive been always fascinated by science and technology,
-                  philosophy and adventures. Even though my childhood was not
-                  easy, I got trough with my natural curiosity and books I had
-                  around me at that time.
-                  {/* <br /> My first technical project was audio amplifier
-                  (exploded at my table back at 2008). In order to buy materials for it
-                  and soldering tools I had to spent christmas writing course works for
-                  other students. */}
+                  philosophy of open source. Despite that my early careers
+                  engineering achievements mostly are closed source.
                 </Text>
 
                 <Text pt={6}>
                   Here are some things I've done in reverse chronological order:
                 </Text>
-                <UnorderedList pl={2}>
+                <UnorderedList pl={2} spacing={4}>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
@@ -141,11 +136,8 @@ const LandingPage = () => {
                           Moonstream
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        - an open source blockchain developer tool for web3.
-                        Moonstream helps to understand how exactly people are
-                        using your smart contracts, and provides infrastructure
-                        around to ease deployment and control over web3
-                        applications
+                        - an open source blockchain developer tool for web3.{' '}
+                        <i>Product development, software engineering.</i>
                       </Text>
                     </chakra.span>
                   </ListItem>
@@ -156,36 +148,12 @@ const LandingPage = () => {
                           Bugout
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        - developer tools analytics. It's purpose is to let
-                        developers easily understand their user issues.
+                        - developer tools analytics.{' '}
+                        <i>Product development, software engineering.</i>
                       </Text>
                     </chakra.span>
                   </ListItem>
 
-                  <ListItem pt={3}>
-                    <chakra.span>
-                      <Text>
-                        <Link
-                          href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/"
-                          color="orange"
-                        >
-                          Zen Delay
-                          <ExternalLinkIcon mx="2px" />
-                        </Link>{' '}
-                        - This work is devoted to my love and passion about
-                        music, and audio processing. <br />
-                        Firmware contains multiple interpolation effects, low
-                        latency real time data processing. Hardware consists of
-                        two printed boards: DSP board (Cortex M4, 256 MB SDRAM,
-                        HI-FI CoDecs). Analog board (Tube drive, analog VCF
-                        filters with resonance control). <br />
-                        In this project I've done almost all engineering work -
-                        schematic design, layout, board bring up, debug.
-                        Firmware (written in pure C) including peripheral
-                        drivers, DSP algorithms etc.
-                      </Text>
-                    </chakra.span>
-                  </ListItem>
                   <ListItem pt={3}>
                     <chakra.span>
                       <Text>
@@ -196,18 +164,24 @@ const LandingPage = () => {
                         >
                           SIA Teknologic <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        - I've been combining position of CEO with Head of{' '}
-                        {'R&D'}
+                        CEO
                       </Text>{' '}
                       <Text pt={2}>
-                        We've designed many decent devices as ODM for companies
-                        amongst which were:{` `}
+                        Design house (ODM) for companies amongst which were:
+                        {` `}{' '}
+                      </Text>
+                      <Flex placeContent={'space-evenly'} wrap="wrap">
+                        <Link href="https://barix.com/" color="teal" isExternal>
+                          Barix
+                          <ExternalLinkIcon h="12px" w="12px" mx="4px" />
+                        </Link>{' '}
                         <Link
                           href="https://coastalamusements.com/"
                           color="teal"
                           isExternal
                         >
-                          Coastal Amusements <ExternalLinkIcon mx="2px" />
+                          Coastal Amusements{' '}
+                          <ExternalLinkIcon h="12px" w="12px" mx="4px" />
                         </Link>{' '}
                         <Link
                           href="https://ericasynths.lv/"
@@ -215,11 +189,7 @@ const LandingPage = () => {
                           isExternal
                         >
                           Erica Synths
-                          <ExternalLinkIcon mx="2px" />
-                        </Link>{' '}
-                        <Link href="https://barix.com/" color="teal" isExternal>
-                          Barix
-                          <ExternalLinkIcon mx="2px" />
+                          <ExternalLinkIcon h="12px" w="12px" mx="4px" />
                         </Link>{' '}
                         <Link
                           href="https://leclanche.com/"
@@ -227,22 +197,46 @@ const LandingPage = () => {
                           isExternal
                         >
                           Leclanche
-                          <ExternalLinkIcon mx="2px" />
+                          <ExternalLinkIcon h="12px" w="12px" mx="4px" />
                         </Link>
-                        <Text pt={2}>
-                          Company concept was to make a design studio in Latvia
-                          and provide ODM service. I was managing client
-                          relationships, managed fully company, projects,
-                          roadmaps and delivery. Outsourced people to get things
-                          done and of course had hands on myself.{' '}
+                      </Flex>
+                      <Text>Some projects to be proud: </Text>
+                      <code>
+                        <Text>
+                          <Link href="https://barix.com/tpa400" color="orange">
+                            TPA400 Barix
+                            <ExternalLinkIcon mx="2px" />
+                          </Link>{' '}
+                          - IP audio class D amplifier <br />
+                          <i>Hardware design and drivers</i>
                         </Text>
-                        <Text pt={2}>
-                          It was quite busy position for me. and when covid and
-                          chip shortages impacted the industry I was happy to
-                          put in pause to reconsider the business consept, and
-                          went in to software development
+                      </code>
+                      <code>
+                        <Text>
+                          <Link
+                            href="https://www.ericasynths.lv/shop/standalone-instruments-1/zen-delay/"
+                            color="orange"
+                          >
+                            Zen Delay
+                            <ExternalLinkIcon mx="2px" />
+                          </Link>{' '}
+                          - best audio delay stomp boxes out there on the
+                          market. <br />
+                          Participated in the project from the very idea -
+                          <i>
+                            Research, full stack (hardware+software) development
+                          </i>
                         </Text>
+                      </code>
+                      <Text pt={2}>
+                        Company concept was to make a design studio in Latvia
+                        and provide ODM service. I was managing client
+                        relationships, managed fully company, projects, roadmaps
+                        and delivery. Outsourced people to get things done and
+                        of course - kept my had hands dirty with engineering
+                        fun.{' '}
                       </Text>
+                      {/* </Text> */}
                     </chakra.span>
                   </ListItem>
                   <ListItem pt={3}>
@@ -255,10 +249,20 @@ const LandingPage = () => {
                           isExternal
                         >
                           UAV Factory <ExternalLinkIcon mx="2px" />
+                        </Link>
+                        {` `}- product owner who brought up{` `}
+                        <Link
+                          href="https://octopus.uavfactory.com/uav-payloads-equipment/portable-tracking-antenna"
+                          whiteSpace="nowrap"
+                          color="teal"
+                          isExternal
+                        >
+                          tracking antenna project{' '}
+                          <ExternalLinkIcon h="12px" w="12px" mx="4px" />
                         </Link>{' '}
-                        - Product Owner role where I restarted stale projects,
-                        set up documentation, team spirit, as well as got some
-                        hands in system parts which only I knew how to fix (RF)
+                        Working on this made me rethink if I want to build
+                        drones. Mostly because of clearly seen military
+                        potential (i'm pacifist)
                       </Text>
                     </chakra.span>
                   </ListItem>
@@ -274,25 +278,58 @@ const LandingPage = () => {
                         >
                           SAF Tehnika <ExternalLinkIcon mx="2px" />
                         </Link>
-                        - RF engineer in {`R&D`} department.
+                        {` `}- RF engineer in {`R&D`} department.
                       </Text>{' '}
                       <Text pt={1}>
-                        I was working on state of art technologies. 5G, IoT. I
-                        was designing microwave filters, antennas, writing
-                        patent applications. Often I was directly reporting to
-                        CTO.
-                        <br />I learned much more than engineering or {`R&D`}{' '}
-                        here. Scaling manufacturing issues, organizing
-                        documentation and corporate culture. Importance of
-                        ISO9001. Working in large collective and organizing my
-                        own process within larger structure.
+                        <code>
+                          <Text>
+                            <Link
+                              href="https://www.saftehnika.com/en/ebandspectrumcompact"
+                              color="orange"
+                            >
+                              Specrum compact
+                              <ExternalLinkIcon mx="2px" />
+                            </Link>{' '}
+                            - World smallest battery powered microwave spectrum
+                            analyzer <br />
+                            <i>
+                              Research and development - System, algorithms, RF
+                            </i>
+                          </Text>
+                        </code>
+                        <code>
+                          <Text>
+                            <Link
+                              href="https://www.saftehnika.com/en/integra"
+                              color="orange"
+                            >
+                              Integra
+                              <ExternalLinkIcon mx="2px" />
+                            </Link>{' '}
+                            - Next generation radio platform analyzer <br />
+                            <i>
+                              Research and development - Electromagnetic
+                              simulations, Radio components desgin
+                            </i>
+                          </Text>
+                        </code>
+                        <code>
+                          <Text>
+                            <Link href="https://aranet.com/" color="orange">
+                              Aranet
+                              <ExternalLinkIcon mx="2px" />
+                            </Link>{' '}
+                            - Long range low power radio sensors <br />
+                            <i>Early stage research and prototyping</i>
+                          </Text>
+                        </code>
                       </Text>
                     </chakra.span>
                   </ListItem>
                 </UnorderedList>
               </chakra.span>
             </VStack>
-            <VStack spacing={6}>
+            <Flex direction={'column'} w="100%">
               <Badge
                 variant="solid"
                 colorScheme="red"
@@ -302,14 +339,15 @@ const LandingPage = () => {
               >
                 Education
               </Badge>
-              <chakra.span textAlign="justify" fontSize="18px">
+              <chakra.span my={4} textAlign="justify" fontSize="18px">
                 <Text>
-                  MSc in Electronics engineering. Graduated in Riga Technical
-                  university in 2012. <br />
+                  Master in Electronics engineering. Riga Technical university
+                  2008-2012. <br />
+                  <br />
                   Favorite subjects - Signal processing, Electrodynamics.
                 </Text>
               </chakra.span>
-            </VStack>
+            </Flex>
             <VStack spacing={6}>
               <Badge
                 variant="solid"
@@ -345,13 +383,14 @@ const LandingPage = () => {
                 </Link>
               </chakra.span>
             </VStack>
-            <VStack spacing={6}>
+            <Flex direction={'column'} w="100%">
               <Badge
                 variant="solid"
                 colorScheme="red"
                 color="gray.400"
                 fontSize="24px"
                 alignSelf="flex-start"
+                mb={2}
               >
                 Papers
               </Badge>
@@ -367,7 +406,7 @@ const LandingPage = () => {
                   <ExternalLinkIcon mx="2px" />
                 </Link>
               </chakra.span>
-            </VStack>
+            </Flex>
 
             <VStack spacing={6} w="100%">
               <Badge
@@ -380,33 +419,12 @@ const LandingPage = () => {
                 During free time
               </Badge>
               <chakra.span textAlign="justify" fontSize="16px" w="100%">
+                <Text pt={4}>Exploring yoga and flow art meditation.</Text>{' '}
                 <Text pt={4}>
-                  For many years now I am practicing flow arts, such as poi,
-                  contact staff, levi stick, juggling. Such movement discipline
-                  connects my body and my mind in one.
+                  Poking around with musical and visual experiments
                 </Text>{' '}
-                <Text pt={4}>
-                  Im passionate about music! I can play a little percussions,
-                  pentatonic flute, slowly approaching guitar.
-                </Text>{' '}
-                <Text pt={4}>
-                  Also find it very interesting to produce music in digital form
-                  via sound synthesis and sampling. I am traveling around with
-                  portable recorder which I use to sample unique sounds and use
-                  it for beat making.
-                </Text>{' '}
-                <Text pt={4}>
-                  I love nature and spending time in it. I've done hikes as long
-                  as 230 km and up to 65km in a day.
-                </Text>{' '}
-                <Text pt={4}>I love to play chess once in a while</Text>{' '}
-                <Text pt={4}>
-                  Yoga and meditation - it is a form of self exploration
-                </Text>{' '}
-                <Text pt={4}>
-                  In to water sports - surfing, recently completed PADI open
-                  water course
-                </Text>{' '}
+                <Text pt={4}>Surfing, Cycling, Rolling, Hiking</Text>{' '}
+                <Text pt={4}>Chess, learning GO</Text>{' '}
               </chakra.span>
             </VStack>
 
@@ -432,6 +450,11 @@ const LandingPage = () => {
                   redefining our cities and social structure.
                 </Text>{' '}
                 <Text pt={4}>
+                  To stop wars and poverty, we learn how to build trust even
+                  within untrusted enviroments. This is the source of my believe in
+                  decentralised technologies
+                </Text>
+                <Text pt={4}>
                   All living creatures are programmed by their very being to
                   work against entropy. Ants are digging in to earth and hance
                   let air inside soil, and that effectively reduces the process
@@ -446,7 +469,7 @@ const LandingPage = () => {
                   In that manner humans mining and pumping oil from ground are
                   serving same purpose. Hence I see current ecological issues as
                   temporary, human centric problems which, I'm certain - we can
-                  solve.
+                  solve. And we will.
                 </Text>{' '}
               </chakra.span>
             </VStack>
