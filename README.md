@@ -1,2 +1,3 @@
-- Hi, I’m @peersky, MSc. Engineer, Enrepreneur, Developer, Visinoary.
-- Find out more at [peersky.xyz](https://peersky.xyz)
+spectral surfing @ dao in my cocoa
+
+interested in DAOs, ZK's, IoT, ML, DSP, Mesh networks
