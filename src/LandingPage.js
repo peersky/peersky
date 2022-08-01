@@ -17,7 +17,6 @@ const LandingPage = () => {
   const bg = '#1233fa';
   const bgbg = 'gray.800';
 
-  console.log('bg', bg);
   return (
     <Flex
       backgroundImage={process.env.PUBLIC_URL + '/dither-crop.png'}
@@ -63,7 +62,7 @@ const LandingPage = () => {
             </Text>
           </Box>
           <VStack id="findme" w="100%" spacing={16}>
-            <VStack spacing={6}>
+            <VStack spacing={6} w="100%">
               <Badge
                 variant="solid"
                 colorScheme="blue"
@@ -73,18 +72,12 @@ const LandingPage = () => {
               >
                 In t(r)o
               </Badge>
-              <chakra.span textAlign="justify" fontSize="18px">
-                <Text pt={4}>
-                  Bold and curious. Kind and playful. Dreamer and doer.
-                </Text>
+              <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 <Text pt={4}>
                   Visionary for world of balance between science, sustainable
                   technology, life, love and wilderness.
                 </Text>
-                <Text pt={4}>
-                  I believe life is a state, where each of us enters to live
-                  trough our specific, unique experience.
-                </Text>
+                <Text>Researcher and developer, always on something cool</Text>
                 <Text pt={4}>
                   I love brain breeze, cup of tea, mindfulness and meeting new
                   exciting people. So, please, - get in touch!
@@ -451,8 +444,8 @@ const LandingPage = () => {
                 </Text>{' '}
                 <Text pt={4}>
                   To stop wars and poverty, we learn how to build trust even
-                  within untrusted enviroments. This is the source of my believe in
-                  decentralised technologies
+                  within untrusted enviroments. This is the source of my believe
+                  in decentralised technologies
                 </Text>
                 <Text pt={4}>
                   All living creatures are programmed by their very being to
