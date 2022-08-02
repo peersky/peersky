@@ -74,10 +74,10 @@ const LandingPage = () => {
               </Badge>
               <chakra.span textAlign="justify" fontSize="18px" w="100%">
                 <Text pt={4}>
-                  Visionary for world of balance between science, sustainable
-                  technology, life, love and wilderness.
+                  Researcher and developer. Visionary for world of balance
+                  between science, sustainable technology, life, love and
+                  wilderness.
                 </Text>
-                <Text>Researcher and developer, always on something cool</Text>
                 <Text pt={4}>
                   I love brain breeze, cup of tea, mindfulness and meeting new
                   exciting people. So, please, - get in touch!
@@ -98,6 +98,12 @@ const LandingPage = () => {
                 <Text pt={1}>
                   Deep emersion in to building inner zen and dao when sitting
                   and between laptop and mug of my cocoa.
+                </Text>
+                <Text pt={2}>
+                  Open for a new challanges. Particularly interested in
+                  sustainable and decentralised business models: DAOs, DeFi and
+                  Ecology, Mesh radio, AI. As well as researches in physics,
+                  acoustics, quantum tech and astronomy.
                 </Text>
               </chakra.span>
             </VStack>
@@ -129,7 +135,7 @@ const LandingPage = () => {
                           Moonstream
                           <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        - an open source blockchain developer tool for web3.{' '}
+                        - game engine and dashboards for web3 games{' '}
                         <i>Product development, software engineering.</i>
                       </Text>
                     </chakra.span>
@@ -157,7 +163,7 @@ const LandingPage = () => {
                         >
                           SIA Teknologic <ExternalLinkIcon mx="2px" />
                         </Link>{' '}
-                        CEO
+                        {`CEO & Engineer`}
                       </Text>{' '}
                       <Text pt={2}>
                         Design house (ODM) for companies amongst which were:
@@ -227,7 +233,13 @@ const LandingPage = () => {
                         relationships, managed fully company, projects, roadmaps
                         and delivery. Outsourced people to get things done and
                         of course - kept my had hands dirty with engineering
-                        fun.{' '}
+                        fun. <br />
+                        <i>
+                          Full stack device design - from idea down the road to
+                          manufacturing support. People and project management,
+                          client relationships. Hands on software and hardware
+                          engineering.
+                        </i>
                       </Text>
                       {/* </Text> */}
                     </chakra.span>
@@ -255,7 +267,12 @@ const LandingPage = () => {
                         </Link>{' '}
                         Working on this made me rethink if I want to build
                         drones. Mostly because of clearly seen military
-                        potential (i'm pacifist)
+                        potential (i'm pacifist) <br />
+                        <i>
+                          Established technical documentation and workflow,
+                          design guidelines, reviewed and improved technical
+                          decisions
+                        </i>
                       </Text>
                     </chakra.span>
                   </ListItem>
@@ -299,7 +316,7 @@ const LandingPage = () => {
                               Integra
                               <ExternalLinkIcon mx="2px" />
                             </Link>{' '}
-                            - Next generation radio platform analyzer <br />
+                            - Next generation radio platform <br />
                             <i>
                               Research and development - Electromagnetic
                               simulations, Radio components desgin
@@ -341,7 +358,7 @@ const LandingPage = () => {
                 </Text>
               </chakra.span>
             </Flex>
-            <VStack spacing={6}>
+            <VStack spacing={6} w="100%">
               <Badge
                 variant="solid"
                 colorScheme="red"
@@ -351,7 +368,7 @@ const LandingPage = () => {
               >
                 Patents
               </Badge>
-              <chakra.span textAlign="justify" fontSize="16px">
+              <chakra.span textAlign="justify" fontSize="16px" w="100%">
                 <Link
                   href="https://www.lrpv.gov.lv/sites/lrpv/files/media_file/201408201.pdf"
                   // whiteSpace="nowrap"
