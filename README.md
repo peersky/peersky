@@ -1,5 +1,5 @@
 Spectral Vision For future:
-+ [Founder @ Peeramid Labs](https://rankify.it)
++ [Founder @ Peeramid Labs](https://peeramid.xyz)
 + [Blog @ peersky.xyz](https://peersky.xyz/blog/)
 
 Past:
