@@ -4,6 +4,7 @@ Spectral Vision For future:
 
 Past:
 + [Solutions @ OpenZeppelin](https://openzeppelin.com)
++ [Diving deep in Blockchain @ Moonstream](https://moonstream.to)
 + [Founder @ Daugaspirit.lv](https://daugaspirit.lv)
 + [Delays & Filters @ EricaSynths ](https://ericasynths.lv)
 + [RF @ SAF Tehnika](https://saftehnika.com)
