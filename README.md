@@ -3,8 +3,8 @@ Spectral Vision For future:
 + [Blog @ peersky.xyz](https://peersky.xyz/blog/)
 
 Past:
-+ [Solutions @ OpenZeppelin](https://openzeppelin.com)
-+ [Diving deep in Blockchain @ Moonstream](https://moonstream.to)
++ [Blockchain / Solutions @ OpenZeppelin](https://openzeppelin.com)
++ [Diving deep into blockchain rabbit hole @ Moonstream](https://moonstream.to)
 + [Founder @ Daugaspirit.lv](https://daugaspirit.lv)
 + [Delays & Filters @ EricaSynths ](https://ericasynths.lv)
 + [RF @ SAF Tehnika](https://saftehnika.com)
