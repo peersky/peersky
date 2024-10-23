@@ -1,6 +1,7 @@
 Spectral Vision For future:
 + [Founder @ Peeramid Labs](https://peeramid.xyz)
 + [Blog @ peersky.xyz](https://peersky.xyz/blog/)
++ [Blog @ mirror](https://mirror.xyz/peersky.eth/)
 
 Past:
 + [Blockchain / Solutions @ OpenZeppelin](https://openzeppelin.com)
