@@ -4,8 +4,8 @@ Spectral Vision For future:
 + [Blog @ mirror](https://mirror.xyz/peersky.eth/)
 
 Past:
-+ [Blockchain / Solutions @ OpenZeppelin](https://openzeppelin.com)
-+ [Diving deep into blockchain rabbit hole @ Moonstream](https://moonstream.to)
-+ [Founder @ Daugaspirit.lv](https://daugaspirit.lv)
-+ [Delays & Filters @ EricaSynths ](https://ericasynths.lv)
-+ [RF @ SAF Tehnika](https://saftehnika.com)
++ [Blockchain Security Solutions @ OpenZeppelin](https://openzeppelin.com)
++ [Blockchain rabbit hole @ Moonstream](https://moonstream.to)
++ [Community Founder @ Daugaspirit.lv](https://daugaspirit.lv)
++ [DSP / IP @ EricaSynths ](https://ericasynths.lv)
++ [RF/IP Core R&D @ SAF Tehnika](https://saftehnika.com)
