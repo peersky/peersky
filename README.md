@@ -1,7 +1,7 @@
 Spectral Vision For future:
 + [Founder @ Peeramid Labs](https://peeramid.xyz)
++ [Building --> Noolog.io - worlds most powerful AI Agent fusion engine](https://noolog.io)
 + [Blog @ peersky.xyz](https://peersky.xyz/blog/)
-+ [Blog @ mirror](https://mirror.xyz/peersky.eth/)
 
 Past:
 + [Blockchain Security Solutions @ OpenZeppelin](https://openzeppelin.com)
